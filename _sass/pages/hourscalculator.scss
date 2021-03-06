@@ -1,0 +1,93 @@
+.hrscalc h1 {
+  font-size: 46px;
+  font-weight: bold;
+  text-align: right;
+}
+.hrscalc h2 {
+  font-size: 30px;
+  margin-top: 42.8px;
+  margin-bottom: 0px;
+  color: var(--font-color);
+}
+.hrscalc h3 {
+  margin-bottom: 0px;
+  color: var(--font-color);
+}
+.hrscalc .hrscalc-left {
+  float: left;
+  width: 45%;
+}
+.hrscalc p {
+  font-size: 16px;
+  margin-top: 0px;
+}
+.hrscalc .hrscalc-input {
+  text-align: right;
+  font-size: 16px;
+}
+.hrscalc input {
+  width: 20%;
+  padding: 3px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid var(--font-color);
+  border-radius: 3px;
+  background-color: var(--bg-color);
+  box-sizing: border-box;
+  color: var(--font-color);
+  font-weight: bold;
+}
+.hrscalc input:focus {
+  border-color: var(--bg-color-opposite);
+}
+.hrscalc .hrscalc-output {
+  display: none;
+  text-align: right;
+  color: var(--font-color);
+}
+.hrscalc span {
+  padding-left: 10px;
+  font-weight: bold;
+}
+.hrscalc .small-hrs {
+  font-size: 14px;
+  font-weight: normal;
+  padding-left: 2px;
+}
+.hrscalc .hrscalc-result {
+  font-size: 20px;
+  color: var(--font-color);
+}
+.hrscalc .hrscalc-icons {
+  height: 20px;
+  width: 20px;
+  float: right;
+  padding-left: 10px;
+}
+@media (prefers-color-scheme: light) {
+  .hrscalc-icons {
+    filter: invert(1);
+  }
+}
+
+.hrscalc .hrscalc-button {
+  border: 0px;
+  background-color: var(--bg-color-opposite);
+  color: var(--font-color-opposite);
+  width: 75px;
+}
+.hrscalc .hrscalc-right {
+  float: right;
+  padding-right: 10%;
+  text-align: left;
+  word-wrap: break-word;
+  width: 35%;
+  color: var(--font-color);
+}
+.hrscalc-right {
+  float: right;
+  padding-right: 15%;
+  text-align: center;
+  word-wrap: normal;
+  width: 70%;
+}

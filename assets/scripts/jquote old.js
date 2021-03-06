@@ -190,6 +190,6 @@ function source() {
     embed.setAttribute("width", 560);
     embed.setAttribute("height", 315);
   } else {
-    document.getElementById("source_link").innerHTML = "¯\\_(ツ)_/¯";
+    document.getElementById("jquote-source-link").innerHTML = "¯\\_(ツ)_/¯";
   }
 }

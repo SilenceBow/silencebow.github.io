@@ -1,0 +1,23 @@
+// Light: #e8e6e3
+// Link Light: #F9837A
+// Dark: #181a1b
+// Link Dark: TBD
+
+// Default to dark
+// scss variables don't seem to want to work here.
+:root {
+  --bg-color: #181a1b;
+  --bg-color-opposite: #e8e6e3;
+  --font-color: #e8e6e3;
+  --font-color-opposite: #181a1b;
+  --link-color: #F9837A;
+}
+@media (prefers-color-scheme: light) {
+ :root {
+  --bg-color: #e8e6e3;
+  --bg-color-opposite: #181a1b;
+  --font-color: #181a1b;
+  --font-color-opposite: #e8e6e3;
+  --link-color: #ff5345;
+  }
+}
