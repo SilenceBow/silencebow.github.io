@@ -1,20 +1,18 @@
 ---
 layout: navbar
 title: JQuote
-description: Get a random quote from the mouth of Jeremy "placeholder" Elbertson!
+description: Get a random quote from the mouth of Jeremy &quot;placeholder&quot; Elbertson!
 ---
 
-<script src="assets/scripts/jquote.js"></script>
-
 <div class="jquote-main">
-  <body onload="page_load()">
-    <p id="title">JQuote</p>
-    <p id="quote"></p>
-    <!-- Not using this at the moment, so hide the button -->
-    <a href="javascript:void" onclick="source()"></p>
-    <iframe width="0" height="0" src="" frameborder="0"
+  <p id="title">JQuote</p>
+  <p id="quote"></p>
+  <!-- <a href="javascript:void" onclick="source()">Source</p> -->
+  <iframe width="0" height="0" src="" frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen id="embed"></iframe>
-    <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" id="source_link"></a>
-  </body>
+  <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" id="source_link"></a>
 </div>
+
+<script src="assets/scripts/jquote_array.js"></script>
+<script src="assets/scripts/jquote.js"></script>
