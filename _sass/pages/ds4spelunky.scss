@@ -5,16 +5,10 @@ html {
 .spelunky-body h5, .spelunky-body h6, .spelunky-body a, .spelunky-body p, .spelunky-body ul {
   white-space: nowrap;
 }
-.spelunky-body h1 {
+.spelunky-body #topdiv {
   text-align: center;
 }
-.spelunky-body #topdiv {
-  margin-top: 13px;
-}
-.spelunky-body h2 {
-  margin-top: 35px;
-  margin-bottom: 35px;
-}
+
 .spelunky-body p, .spelunky-body ul {
   font-size: small;
   line-height: 20px;
@@ -23,7 +17,7 @@ html {
   padding: 0px;
 }
 .spelunky-body blockquote {
-  background: rgba(80, 80, 80, 0.5); /* #ddd */
+  background: rgba(151, 151, 151, 0.5); /* #ddd */
   border-left: 3px solid #5b5b5b;
   margin: 3em auto;
   margin-top: 10px;
@@ -35,13 +29,9 @@ html {
 .spelunky-body blockquote p {
   display:inline;
 }
-.spelunky-body .bgdiv {
-  background-color: #111213;
-  padding: 5px 500px;
-  margin: 0px -500px;
-}
+
 #spelunky-alltex-dl {
-  background-color: rgb(220, 220, 220); /*#0070e0*/
+  background-color: #DCDCDC; /*#0070e0*/
   text-decoration: none;
   color: rgb(0, 0, 0);
   padding: 10px 15px;
@@ -50,14 +40,14 @@ html {
   font-weight: bold;
   border-radius: 4px;
 }
-#spelunky-dl-direct:after {
+#spelunky-alltex-dl::after {
   content: '';
   width: 0px;
-  height: 1px;
+  height: 2px;
   display: block;
   background: black;
   transition: 0.2s;
 }
-#spelunky-dl-direct:hover:after {
+#spelunky-alltex-dl:hover::after {
   width: 100%;
 }
