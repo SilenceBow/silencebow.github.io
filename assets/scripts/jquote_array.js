@@ -47,6 +47,6 @@ var quotes = [
   "I'll be back, I gotta go eat my own shit.", 
   "Do you know what it's like to shit?", 
   "You know don't say s-swears.", 
-  "I'm seriously gonna go sit down on the toilet and piss up into my face", 
+  "I'm seriously gonna go sit down on the toilet and piss up into my face.", 
   "Lets put cigarettes out on my dick!", 
 ];
